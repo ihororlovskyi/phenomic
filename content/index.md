@@ -14,6 +14,6 @@ the documentation :
 
 Built with
 <a href="https://facebook.github.io/react/">
-  <img alt="" src="assets/react.svg" width="16" height="16" />
+  <img alt="" src="assets/react.svg" width="200" height="200" />
   React
 </a>.
