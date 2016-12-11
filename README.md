@@ -1,19 +1,19 @@
-# [Phenomic](https://github.com/MoOx/phenomic) boilerplate
+# [Phenomic](https://github.com/MoOx/phenomic) phenomic-theme-base
 
 ## Install dependencies
 
-```console
-$ npm install
+```sh
+npm install
 ```
 
 ## Run development server
 
-```console
-$ npm start
+```sh
+npm start
 ```
 
 ## Build for production
 
-```console
-$ npm run build
+```sh
+npm run build
 ```
