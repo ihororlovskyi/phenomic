@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "phenomic",
-  "homepage": "http://abc.xyz/",
-  "twitter": "",
-  "repository": "",
+  "homepage": "http://ihororlovskyi.github.io/phenomic",
+  "twitter": "ihororlovskyi",
+  "repository": "https://github.com/ihororlovskyi/phenomic",
   "scripts": {
     "lint:js": "eslint --ignore-path .gitignore --fix .",
     "lint:css": "stylelint \"src/**/*.css\"",
@@ -11,7 +11,8 @@
     "start": "phenomic start",
     "build": "phenomic build",
     "pretest": "npm run lint",
-    "test": "npm run build"
+    "test": "npm run build",
+    "deploy": "phenomic build && gh-pages -d dist"
   },
   "phenomic": {
     "CNAME": false
@@ -107,9 +108,11 @@
     "eslint-plugin-react": "^6.4.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
+    "gh-pages": "^0.12.0",
     "history": "^2.0.0",
     "json-loader": "^0.5.2",
     "npm-run-all": "^1.7.0",
+    "phenomic": "^0.19.5",
     "postcss-browser-reporter": "^0.4.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.13.0",
@@ -128,7 +131,6 @@
     "stylelint": "^7.2.0",
     "warning": "^3.0.0",
     "webpack": "^1.11.0",
-    "whatwg-fetch": "^0.11.0",
-    "phenomic": "^0.19.5"
+    "whatwg-fetch": "^0.11.0"
   }
 }
